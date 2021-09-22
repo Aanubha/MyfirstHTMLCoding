@@ -1,0 +1,53 @@
+/* Comments */
+/* cmd + shift+ /
+
+/* Element selectors */
+
+h1{
+    color: purple;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+    color: yellowgreen;
+    background-color: teal;
+    padding: 20px 5px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+button{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin:10px;
+}
+
+.subtitle {
+    color: seagreen;
+}
+
+/* ID selectors */
+
+#msg{
+        color: sienna;
+}
+
+/* Universal selectors */
+
+/* *{
+    color: red;
+}*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
